@@ -1,0 +1,5 @@
+f=open("write.txt","w")
+f.write("Python class")
+n=f.write("\nC class")
+print(n)
+f.close()

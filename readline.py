@@ -1,0 +1,22 @@
+f=open("hello.txt","r")
+data=f.readline()
+print(data)
+data=f.readline()
+print(data)
+
+f.close()
+
+print("\n ######Readline with no new line##########")
+f=open("hello.txt","r")
+data=f.readline()
+print(data,end="")
+data1=f.readline()
+print(data1)
+f.close()
+
+print("\n #######Printing specific no. of characters ######### ")
+f=open("hello.txt","r")
+data2=f.readline(4)
+print(data2)
+data3=f.readline(4)
+print(data3)
